@@ -10,7 +10,7 @@ import { AppState } from './app.state';
     <button (click)="decrement()">Decrement</button>
     <jedi-list></jedi-list>
   `,
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
   counter$

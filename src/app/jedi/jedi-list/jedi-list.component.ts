@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 @Component({
   selector: 'jedi-list',
   templateUrl: './jedi-list.component.html',
-  styleUrls: ['./jedi-list.component.css']
+  styleUrls: ['./jedi-list.component.scss']
 })
 export class JediListComponent {
   list$: Observable<Array<Jedi>>;
